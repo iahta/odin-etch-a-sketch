@@ -1,3 +1,14 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#grid-prompt {
+    margin: 5px;
+
+}
 #grid-container {
     background-color: blue;
     display: flex;
@@ -8,8 +19,7 @@
 
 .square {
     /* border: 5px solid red;*/
-    width: 50px;
-    height: 50px;
     background-color: yellow;
-    margin: 5px;
+    /* margin: 5px; */
 }
+
